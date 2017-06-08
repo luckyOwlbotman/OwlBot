@@ -1,7 +1,6 @@
 var rp = require('request-promise');
 var cheerio = require('cheerio');
 const commando = require("discord.js-commando");
-var fotology = require("fotology");
 ////https://github.com/rentzsch/node-google-image-search-url-results/blob/master/index.js -- giveing credit where credit it due
 function imageSearch(message, query) {
     var URL = 'http://images.google.com/search?tbm=isch&q='+encodeURIComponent(query);
