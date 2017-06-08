@@ -8,7 +8,7 @@ npm install --save discord.js,
         ,npm install ytdl-core
 ,then you need to make a settings.json file and in that file type
 {
-    "token":"<whatever your token is>"
+    "token":"whatever your token is"
 },
 then install FFmpeg and add it to your path, just follow the steps 
 http://www.wikihow.com/Install-FFmpeg-on-Windows
