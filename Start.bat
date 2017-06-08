@@ -1,0 +1,2 @@
+node --harmony .
+PAUSE
