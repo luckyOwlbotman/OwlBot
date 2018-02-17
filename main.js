@@ -14,7 +14,18 @@ bot.registry.registerDefaults();
 
 bot.on("ready", () =>{
 bot.user.setGame("crippling depression"); 
- 
+
+});
+bot.on("message", (message) =>{
+ if(message.content == "hello"){
+    message.reply("hello");
+ }
+  if(message.content == "thank you"){
+    message.reply("your welcome");
+ }
+  if(message.content == "goodbye"){
+    message.reply("goodbye");
+ }
 });
 bot.on("guildMemberAdd", member =>{
      member.guild.channels.find("name", "logs").sendMessage(" "  + member.user.username + " (id: " +member.user.username +") was added to this server at " + new Date());
